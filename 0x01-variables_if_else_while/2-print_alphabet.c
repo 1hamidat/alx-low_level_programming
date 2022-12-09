@@ -4,8 +4,8 @@
 /**
  * main - Entry point
  *
- *Return: Always 0
- * /
+ * Return: 0
+ */
 int main(void)
 {
 	char a = 'a';
@@ -13,7 +13,7 @@ int main(void)
 	while (a <= 'z')
 	{
 		putchar(a);
-		a++,
+		a++;
 	}
 
 	putchar('\n');
