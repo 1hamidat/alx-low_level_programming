@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Return: Always (0)
+ * Return: Always 0
  */
 int main(void)
 {
@@ -20,4 +20,3 @@ else
 printf("%d is zero\n", n);
 return (0);
 }
-
